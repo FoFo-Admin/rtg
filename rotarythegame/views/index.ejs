@@ -1,0 +1,116 @@
+<%- include('header.ejs') %>
+
+<section>
+    <div id="white-decoration">
+        <div id="white-decore-one" class="decore">
+            <img src="images/decor-white.svg" alt="">
+        </div>
+        <div id="white-decore-two" class="decore">
+            <img src="images/decor-white.svg" alt="">
+        </div>
+        <div id="white-decore-three" class="decore">
+            <img src="images/decor-white.svg" alt="">
+        </div>
+        <div id="white-decore-four" class="decore">
+            <img src="images/decor-white.svg" alt="">
+        </div>
+
+        <div id="white-section">
+            <div class="inline-block-div">
+                <div class="headline-margin">
+                    <h2>Что за игра?</h2>
+                </div>
+                <div>
+                    <p class="about-text">
+                        “Ротари” - это игра для компании от 4 до 16 человек, где каждому необходимо доказать свою
+                        полезность, чтобы победить. В этом вам помогут умелое раскрытие и утаивание фактов о себе,
+                        своевременное использование карт действия, мастерство риторики и демагогии, и конечно
+                        немного удачи. Игра фактически является вариацией “Бункера” на тематику всемирной
+                        организации Ротари. Прекрасно подходит для тимбилдинга в Ротари и Ротаракт клубах.
+                    </p>
+                </div>
+                <div class="btn-margin">
+                    <div class="how-to-play-btn">
+                        <p class="btn-text">Как играть?</p>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="inline-block-div big-logo-margin">
+                <img src="images/big-logo.svg" alt="How to play 'Rotary The Game'">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="blue">
+    <div id="blue-decoration">
+
+        <div id="blue-decore-one" class="decore">
+            <img src="images/decore-blue-mini.svg" alt="">
+        </div>
+        <div id="blue-decore-two" class="decore">
+            <img src="images/decore-blue.svg" alt="">
+        </div>
+        <div id="blue-decore-three" class="decore">
+            <img src="images/decore-blue.svg" alt="">
+        </div>
+
+        <div  id="blue-section">
+            <div id="cards-div">
+                <div class="inline-block-div">
+                    <img src="images/job.svg" alt="job">
+                </div>
+                <div class="inline-block-div">
+                    <img src="images/salary.svg" alt="salary">
+                </div>
+                <div class="inline-block-div">
+                    <img src="images/char.svg" alt="characterisctic">
+                </div>
+                <div class="inline-block-div">
+                    <img src="images/hobby.svg" alt="hobby">
+                </div>
+                <div class="inline-block-div">
+                    <img src="images/fact.svg" alt="interesting fact">
+                </div>
+                <div class="inline-block-div">
+                    <img src="images/item.svg" alt="item">
+                </div>
+                <div class="inline-block-div">
+                    <img src="images/action.svg" alt="action">
+                </div>
+                <div class="inline-block-div">
+                    <img src="images/quest.svg" alt="quest">
+                </div>
+                <div class="inline-block-div">
+                    <img src="images/force.svg" alt="force">
+                </div>
+            </div>
+            <div class="form-div">
+                <form action="lobby" method="POST">
+                    <div class="form-center">
+                        <div class="headline-margin">
+                            <h2>Как вас зовут?</h2>
+                        </div>
+                    </div>
+                    <div class="form-center">
+                        <input type="text" placeholder="Имя" class="name-input" name="name" id="name">
+                    </div>
+                    <div class="form-center">
+                        <input type="text" placeholder="ABCD" class="code-input" name="code" id="code">
+                        <input type="submit" value="Войти по коду" class="code-submit" name="codeSubmit" id="codeSubmit">
+                    </div>
+                    <div class="form-center">
+                        <input type="submit" value="Создать игру" class="game-submit" name="gameSubmit" id="gameSubmit">
+                    </div>
+                    <div class="form-center">
+                        <p id="error-text">
+                            Вы не ввели имя!
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<%- include('footer.ejs') %>
