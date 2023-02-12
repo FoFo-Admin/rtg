@@ -1,0 +1,69 @@
+<%- include('header.ejs') %>
+
+<section>
+    <div id="white-decoration">
+        <div id="white-decore-one" class="decore">
+            <img src="http://localhost:3000/images/decor-white.svg" alt="" draggable="false">
+        </div>
+        <div id="white-decore-three" class="decore">
+            <img src="http://localhost:3000/images/decor-white.svg" alt="" draggable="false">
+        </div>
+        <div id="white-decore-four" class="decore">
+            <img src="http://localhost:3000/images/decor-white.svg" alt="" draggable="false">
+        </div>
+
+        <div id="white-waiting-section">
+            <div class="inline-block-div">
+                <div class="center-all-content">
+                    <div class="inline-block-div">
+                        <p class="blue-big-text">Код комнаты:</p> 
+                    </div><!--
+                    --><div class="inline-block-div code-div">
+                        <p id="code-text">
+                            QWER
+                        </p>
+                    </div>
+                </div>
+                <div class="inline-block-div waiting-margin-div center-all-content">
+                    <div class="inline-block-div waiting-text-width-div">
+                        <p class="blue-big-text">Ведущий:</p> 
+                    </div><!--
+                    --><div class="inline-block-div code-div">
+                        <input type="text" value="Толик" class="waiting-input" id="host" disabled>
+                    </div>
+                </div>
+                <div class="inline-block-div waiting-margin-div">
+                    <div class="inline-block-div waiting-text-width-div margin-players-div">
+                        <p class="blue-big-text">Игроки:</p> 
+                    </div><!--
+                    --><div class="inline-block-div code-div" id="players">
+                        <div class="players-margin-div">
+                            <input type="text" value="Володимир" class="waiting-input" disabled><!--
+                            --><div class="inline-block-div">
+                            </div>
+                        </div>
+                        <div class="players-margin-div">
+                            <input type="text" value="Денис" class="waiting-input" disabled><!--
+                            --><div class="inline-block-div">
+                            </div>
+                        </div>
+                        <div class="players-margin-div">
+                            <input type="text" value="Антон" class="waiting-input" disabled><!--
+                            --><div class="inline-block-div">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--
+            --><div class="inline-block-div big-logo-margin-player">
+                <div class="center-all-content" style="height: inherit">
+                    <img src="http://localhost:3000/images/big-logo.svg" alt="How to play 'Rotary The Game'">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="http://localhost:3000/js/client-player.js"></script>
+
+<%- include('footer.ejs') %>

@@ -72,6 +72,26 @@ h2{
     color: #F7A81B;
 }
 
+.blue-big-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 32px;
+
+    color: #17478F;
+}
+
+#code-text{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 48px;
+
+    color: #F7A81B;
+}
+
 #error-text{
     font-family: 'Open Sans';
     font-style: normal;

@@ -112,7 +112,18 @@
     margin-top: 42px;
 }
 
-.big-logo-margin{
+.big-logo-margin-host{
+    margin-left: 115px;
+    height: 100%;
+}
+
+.big-logo-margin-player{
+    margin-left: 180px;
+    height: 100%;
+}
+
+.big-logo-margin-waiting{
+    height: 100%;
     margin-left: 100px;
 }
 
@@ -130,6 +141,26 @@
     margin-top: 45px;
 }
 
+.code-div{
+    margin-left: 23px;
+}
+
+.waiting-margin-div{
+    margin-top: 56px;
+}
+
+.players-margin-div{
+    margin-bottom: 7px;
+}
+
+.waiting-text-width-div{
+    width: 167px;
+}
+
+.margin-players-div{
+    margin-top: 10px;
+}
+
 #footer-div-logo{
     height: inherit;
 }
@@ -137,4 +168,9 @@
 #footer-div-buttons{
     height: inherit;
     margin-left: 129px;
+}
+
+.center-all-content{
+    display: flex;
+    align-items: center;
 }
